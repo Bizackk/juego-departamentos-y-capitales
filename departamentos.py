@@ -21,14 +21,14 @@ while True:
         pregunta = input(f"Cual es la capital de {departamento_azar}? Intentos restantes: {intentos}. Si desea irse tan solo escriba (salir): ")
         
         if pregunta.lower() == 'salir':
-            print("¡Hasta luego!")
+            print("Hasta luego")
             exit()
         elif pregunta.lower() == capital_correcta.lower():
-            print("¡Bien!")
+            print("Bien")
             exit()
         else:
             intentos -= 1
             if intentos == 0:
-                print("¡Lo siento, has agotado tus intentos!")
+                print("has agotado tus intentos")
             else:
-                print("¡Incorrecto! Intenta de nuevo.")
+                print("Incorrecto. Intenta de nuevo")
